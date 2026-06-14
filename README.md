@@ -73,6 +73,9 @@ GoWork/
 └── .gitignore           # Git 忽略规则
 ```
 
+自行编译时附带这些参数：cd *:/GoWork && go build -ldflags="-s -w -H windowsgui" -o GoWork.exe .; upx --best GoWork.exe
+
+
 ## 程序逻辑
 
 ### 核心流程
